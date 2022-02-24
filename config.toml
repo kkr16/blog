@@ -2,3 +2,4 @@ baseURL = 'https://etcwhat.com/'
 languageCode = 'en-us'
 title = '/etc/what ?!'
 theme = "ananke"
+googleAnalytics = "UA-115617184-1"
