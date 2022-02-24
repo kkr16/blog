@@ -1,6 +1,7 @@
 FROM alpine:3.15.0 as build
 ARG HUGO_VERSION=0.92.2
 ENV HUGO_BINARY hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
+RUN apk add --no-cache git
 RUN apk add --update wget ca-certificates && \
     cd /tmp/ && \
     wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/${HUGO_BINARY} && \
@@ -11,6 +12,7 @@ RUN apk add --update wget ca-certificates && \
     rm /var/cache/apk/*
 WORKDIR /site
 COPY . .
+RUN git submodule update --init --recursive
 RUN hugo -v -s /site -d /site/public
 
 FROM nginx:alpine
