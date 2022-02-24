@@ -13,7 +13,7 @@ RUN apk add --update wget ca-certificates && \
 WORKDIR /site
 COPY . .
 RUN git submodule update --init --recursive
-RUN hugo -v -s /site -d /site/public
+RUN HUGO_ENV=production hugo -v -s /site -d /site/public
 
 FROM nginx:alpine
 COPY config/nginx.conf /etc/nginx/conf.d/default.conf
