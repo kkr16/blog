@@ -1,6 +1,6 @@
 FROM alpine:3.15.0 as build
 ARG HUGO_VERSION=0.92.2
-ENV HUGO_BINARY hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
+ENV HUGO_BINARY hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
 RUN apk add --no-cache git
 RUN apk add --update wget ca-certificates && \
     cd /tmp/ && \
