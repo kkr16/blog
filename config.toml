@@ -1,0 +1,4 @@
+baseURL = 'https://etcwhat.com/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = "ananke"
