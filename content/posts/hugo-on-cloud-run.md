@@ -7,7 +7,7 @@ draft: false
 
 I'm a master procrastinator. This meant that when I decided to start writing, I had to find new ways to delay it, and what better way of procrastinating on writing, than to build your own blog.
 
-![](img/hugo-on-run.png)
+![](/img/hugo-on-run.png)
 
 
 ```
