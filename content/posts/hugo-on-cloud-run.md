@@ -7,6 +7,11 @@ draft: true
 
 I'm a master procrastinator. This meant that when I decided to start writing, I had to find new ways to delay it, and what better way of procrastinating on writing, than to build your own blog.
 
+I wanted a blog that:
+* was lightweight
+* ran on Google Cloud
+* was easy to setup
+
 ![](/img/hugo-on-run.png)
 
 
