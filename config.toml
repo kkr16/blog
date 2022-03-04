@@ -17,3 +17,8 @@ googleAnalytics = "UA-115617184-1"
   title = 'about me'
   url = '/about/'
   weight = 50
+
+[sitemap]
+  changefreq = 'weekly'
+  filename = 'sitemap.xml'
+  priority = 0.5
