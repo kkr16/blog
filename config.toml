@@ -3,3 +3,17 @@ languageCode = 'en-us'
 title = '/etc/what ?!'
 theme = "ananke"
 googleAnalytics = "UA-115617184-1"
+
+[menu]
+[[menu.main]]
+  identifier = 'content'
+  name = 'content'
+  title = 'content'
+  url = '/posts/'
+  weight = 30
+[[menu.main]]
+  identifier = 'about me'
+  name = 'about me'
+  title = 'about me'
+  url = '/about/'
+  weight = 50
