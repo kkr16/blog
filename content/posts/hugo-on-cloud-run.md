@@ -2,8 +2,7 @@
 title: "How I built this blog using Hugo on Cloud Run"
 date: 2022-03-01T03:20:02Z
 draft: false
-taxonomies:
-  tags: "#meta"
+tags: [gcp, serverless, blog, meta]
 ---
 # Hugo on Cloud Run
 

@@ -4,6 +4,12 @@ title = "/etc/what - Karim's notes on tech"
 theme = "cactus"
 googleAnalytics = "UA-115617184-1"
 
+[params]
+  showProjectsList = false
+  projectsUrl = "https://github.com/kkr16"
+  rss = true # generate rss feed. default value is false
+  googleAnalyticsAsync = true # use asynchronous tracking. Synchronous tracking by default
+
 [menu]
 [[menu.main]]
   identifier = 'content'
