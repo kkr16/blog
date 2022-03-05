@@ -22,3 +22,15 @@ googleAnalytics = "UA-115617184-1"
   changefreq = 'weekly'
   filename = 'sitemap.xml'
   priority = 0.5
+
+[[params.social]]
+  name = "github"
+  link = "https://github.com/kkr16"
+
+[[params.social]]
+  name = "email"
+  link = "blog@etcwhat.com" 
+
+[[params.social]]
+  name = "linkedin"
+  link = "https://www.linkedin.com/in/karimroukoz/"
