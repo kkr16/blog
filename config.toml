@@ -1,7 +1,7 @@
 baseURL = 'https://etcwhat.com/'
 languageCode = 'en-us'
-title = '/etc/what ?!'
-theme = "ananke"
+title = "/etc/what - Karim's notes on tech"
+theme = "cactus"
 googleAnalytics = "UA-115617184-1"
 
 [menu]
