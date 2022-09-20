@@ -1,7 +1,7 @@
 ---
 title: "How much is that GCS bucket costing us anyway?"
 date: 2022-09-19T03:20:02Z
-draft: true
+draft: false
 tags: [gcp, billing, functions, storage, labels, cost, finops, blog]
 ---
 # How much is that GCS bucket costing us anyway?
