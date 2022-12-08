@@ -3,6 +3,7 @@ languageCode = 'en-us'
 title = "/etc/what - Karim's notes on tech"
 theme = "cactus"
 googleAnalytics = "UA-115617184-1"
+enableRobotsTXT = true
 
 [params]
   showProjectsList = false
