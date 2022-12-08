@@ -6,8 +6,7 @@ ENV HUGO_ENV production
 ENV GLIBC_VERSION 2.27-r0
 
 RUN set -x && \
-  apk add --update wget ca-certificates libstdc++
-
+  apk add --update --force-overwrite wget ca-certificates libstdc++
 # Install glibc: This is required for HUGO-extended (including SASS) to work.
 
 RUN wget -q -O /etc/apk/keys/sgerrand.rsa.pub https://alpine-pkgs.sgerrand.com/sgerrand.rsa.pub \
